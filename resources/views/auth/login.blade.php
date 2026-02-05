@@ -39,9 +39,11 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <img src="{{ asset('logo-apotek.png') }}" width="60" class="mb-2">
+                                        <img src="{{ asset('logo-apotek.png') }}"
+                                             alt="Logo Apotik Farma"
+                                             width="70"
+                                             class="mb-3">        
                                         <h1 class="h4 text-gray-900 mb-4">
-                                            <i class="fas fa-user mr-2"></i>
                                             Apotik Farma | Login
                                         </h1>
                                     </div>
