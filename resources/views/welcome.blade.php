@@ -124,7 +124,7 @@
             display: flex;
             align-items: center;
             /* Using a placeholder image for hero - replace with your actual apotek image */
-            background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('enno/assets/img/gemini2.png') center center / cover no-repeat;
+            background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('{{ asset('enno/assets/img/gemini2.png') }}') center center / cover no-repeat;
             background-attachment: fixed; /* Optional: for parallax effect */
         }
         #hero h1 {
@@ -284,7 +284,7 @@
 
         /* CTA Section */
         #cta {
-            background: linear-gradient(rgba(56, 142, 60, 0.9), rgba(56, 142, 60, 0.9)), url('enno/assets/img/services.jpg') center center / cover no-repeat;
+            background: linear-gradient(rgba(56, 142, 60, 0.9), rgba(56, 142, 60, 0.9)), url('{{ asset('enno/assets/img/services.jpg') }}') center center / cover no-repeat;
             background-attachment: fixed; /* Optional: for parallax effect */
             color: #fff;
             padding: 100px 0;
