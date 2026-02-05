@@ -41,7 +41,7 @@
                                     <div class="text-center">
                                         <img src="{{ asset('logo-apotek.png') }}"
                                              alt="Logo Apotik Farma"
-                                             width="70"
+                                             width="40"
                                              class="mb-3">        
                                         <h1 class="h4 text-gray-900 mb-4">
                                             Apotik Farma | Login
