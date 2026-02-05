@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Apotik Farma | Login</title>
+    <title>Apotek Farma | Login</title>
 
     <!-- Custom fonts for this template-->
     <link rel="icon" type="image/png" href="{{ asset('logo-apotek.png') }}">
