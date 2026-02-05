@@ -12,7 +12,6 @@
     <title>Apotik Farma | Login</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{ asset('enno/assets/img/logo-apotek.png') }}" rel="icon">
     <link rel="icon" type="image/png" href="{{ asset('logo-apotek.png') }}">
     <link href="{{ asset('sbadmin2/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link
@@ -40,9 +39,11 @@
                             <div class="col-lg-12">
                                 <div class="p-5">
                                     <div class="text-center">
+                                        <img src="{{ asset('logo-apotek.png') }}" width="60" class="mb-2">
                                         <h1 class="h4 text-gray-900 mb-4">
-                                        <i class="fas fa-user mr-2"></i>    
-                                        Apotik Farma | Login</h1>
+                                            <i class="fas fa-user mr-2"></i>
+                                            Apotik Farma | Login
+                                        </h1>
                                     </div>
                                     <form class="user" method="POST" action="{{ route('loginProses') }}">
                                         @csrf
