@@ -38,12 +38,13 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="p-5">
-                                    <div class="text-center">
+                                    <div class="text-center d-flex justify-content-center align-items-center mb-4">
                                         <img src="{{ asset('logo-apotek.png') }}"
                                              alt="Logo Apotik Farma"
-                                             width="40"
-                                             class="mb-3">        
-                                        <h1 class="h4 text-gray-900 mb-4">
+                                             width="45"
+                                             class="mr-3">
+                                    
+                                        <h1 class="h4 text-gray-900 mb-0">
                                             Apotik Farma | Login
                                         </h1>
                                     </div>
