@@ -5,9 +5,15 @@
         "api/index.php": { "runtime": "vercel-php@0.7.4" }
     },
     "routes": [
-        { "src": "/(.*)", 
-        "dest": "/api/index.php" }
-    ],
+    {
+      "src": "/(.*\\.(png|jpg|jpeg|gif|svg|webp|css|js))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
