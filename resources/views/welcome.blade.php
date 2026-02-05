@@ -7,7 +7,7 @@
     <meta name="description" content="Apotek Farma: Menyediakan layanan farmasi terpercaya dan produk kesehatan berkualitas dengan sistem manajemen digital modern (SIMAF).">
     <meta name="keywords" content="Apotek, Farma, Kesehatan, Obat, Digital, Modern, Premium">
 
-    <link href="{{ asset('enno/assets/img/logo-apotek.png') }}" rel="icon">
+    <link rel="icon" type="image/png" href="{{ asset('logo-apotek.png') }}">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
