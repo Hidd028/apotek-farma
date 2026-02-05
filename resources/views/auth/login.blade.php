@@ -12,6 +12,7 @@
     <title>Apotik Farma | Login</title>
 
     <!-- Custom fonts for this template-->
+    <link href="{{ asset('enno/assets/img/logo-apotek.png') }}" rel="icon">
     <link rel="icon" type="image/png" href="{{ asset('logo-apotek.png') }}">
     <link href="{{ asset('sbadmin2/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link
