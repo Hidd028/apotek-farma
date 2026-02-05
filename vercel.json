@@ -7,7 +7,7 @@
     "routes": [
     {
       "src": "/(.*\\.(png|jpg|jpeg|gif|svg|webp|css|js))",
-      "dest": "/public/$1"
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
