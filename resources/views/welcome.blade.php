@@ -506,7 +506,7 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.34815989214!2d106.04427779999999!3d-6.3489469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e423b6b836dfcdb%3A0x5a1bfbf11c288ac9!2sApotek%20Batubantar!5e0!3m2!1sid!2sid!4v1757924628508!5m2!1sid!2sid" class="rounded-top" style="border:0;" allowfullscreen loading="lazy"></iframe>
                         </div>
                         <div class="card-body p-4">
-                            <h5 class="card-title fw-bold" style="color: var(--color-primary-green);">Apotek Apotek Batubantar Farma</h5>
+                            <h5 class="card-title fw-bold" style="color: var(--color-primary-green);">Apotek Batubantar Farma</h5>
                             <p class="card-text text-muted mb-2"><i class="bi bi-geo-alt-fill me-2"></i> Batubantar, Cimanuk, Pandeglang</p>
                             <p class="card-text text-muted"><i class="bi bi-phone-fill me-2"></i> 0812-3333-4444</p>
                         </div>
@@ -518,7 +518,7 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1295385965836!2d106.0133437!3d-6.3772744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e423b695c5a3551%3A0x6eadee4b0d8206fc!2sApotek%20Afiat%20Cipeucang!5e0!3m2!1sid!2sid!4v1757924685705!5m2!1sid!2sid" class="rounded-top" style="border:0;" allowfullscreen loading="lazy"></iframe>
                         </div>
                         <div class="card-body p-4">
-                            <h5 class="card-title fw-bold" style="color: var(--color-primary-green);">Apotek Apotek Cipeucang Farma</h5>
+                            <h5 class="card-title fw-bold" style="color: var(--color-primary-green);">Apotek Cipeucang Farma</h5>
                             <p class="card-text text-muted mb-2"><i class="bi bi-geo-alt-fill me-2"></i> Palanyar, Cipeucang, Pandeglang</p>
                             <p class="card-text text-muted"><i class="bi bi-phone-fill me-2"></i> 0812-5555-6666</p>
                         </div>
