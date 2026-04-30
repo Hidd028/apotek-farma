@@ -66,7 +66,7 @@ class ObatController extends Controller
 
     return $user->jabatan == 'Admin'
         ? view('admin.obat.index', $data)->with('menuAdminObat', 'active')
-        : view('kasir.obat.index', $data)->with('menuKasirObat', 'active');
+        : view('Kasir.obat.index', $data)->with('menuKasirObat', 'active');
 }
 
     // 🧩 2. Form tambah obat
