@@ -73,7 +73,7 @@ class RestokObatController extends Controller
 
     return $user->jabatan == 'Admin'
         ? view('admin.transaksi.restok.index', $data)->with('menuAdminRestok', 'active')
-        : view('kasir.transaksi.restokObat.index', $data)->with('menuKasirRestok', 'active');
+        : view('Kasir.transaksi.restokObat.index', $data)->with('menuKasirRestok', 'active');
 }
 
     // 🟢 FORM TAMBAH
