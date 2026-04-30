@@ -119,7 +119,7 @@ public function create()
 
     return $user->jabatan == 'Admin'
         ? view('admin.transaksi.penjualan.create', $data)->with('menuAdminPenjualan', 'active')
-        : view('kasir.transaksi.penjualan.create', $data)->with('menuKasirPenjualan', 'active');
+        : view('Kasir.transaksi.penjualan.create', $data)->with('menuKasirPenjualan', 'active');
 }
 
 public function store(Request $request)
