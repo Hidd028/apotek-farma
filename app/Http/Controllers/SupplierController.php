@@ -66,7 +66,7 @@ class SupplierController extends Controller
 
         return $user->jabatan == 'Admin'
         ? view('admin.supplier.index', $data)->with('menuAdminSupplier', 'active')
-        : view('kasir.supplier.index', $data)->with('menuKasirSupplier', 'active');
+        : view('Kasir.supplier.index', $data)->with('menuKasirSupplier', 'active');
     }
 
     public function create()
