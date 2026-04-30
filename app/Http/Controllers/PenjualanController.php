@@ -66,7 +66,7 @@ class PenjualanController extends Controller
 
     return $user->jabatan == 'Admin'
         ? view('admin.transaksi.penjualan.index', $data)->with('menuAdminPenjualan', 'active')
-        : view('kasir.transaksi.penjualan.index', $data)->with('menuKasirPenjualan', 'active');
+        : view('Kasir.transaksi.penjualan.index', $data)->with('menuKasirPenjualan', 'active');
 }
 
 public function create()
